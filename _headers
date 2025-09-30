@@ -1,20 +1,3 @@
 /*
-Cross-Origin Isolation headers required for Godot HTML5 exports
-to enable SharedArrayBuffer and WebAssembly multi-threading.
-/
-/index.html
-Cross-Origin-Embedder-Policy: require-corp
-Cross-Origin-Opener-Policy: same-origin
-/
-Apply the headers to all necessary Godot assets (JS, Wasm, PCK) as a fallback
-though usually setting it on the HTML page is sufficient.
-/
-/.js
-Cross-Origin-Embedder-Policy: require-corp
-Cross-Origin-Opener-Policy: same-origin
-/.wasm
-Cross-Origin-Embedder-Policy: require-corp
-Cross-Origin-Opener-Policy: same-origin
-/.pck
-Cross-Origin-Embedder-Policy: require-corp
-Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
